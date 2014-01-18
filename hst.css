@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font: 62.5%/1.5 Arial, Verdana, Geneva, sans-serif;
+	background-image: url(images/human-trafficking-chain.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	line-height: 1.3;
+}
+p{
+	margin-bottom:1.3em;
+	margin-left:1em;
+	font-size:1.5em;
+	line-height: 1.5;
+}
+h2{
+	font-size:2.0em;
+	padding: 5px;	
+}
+
+h2, h3, h4{
+    line-height: 1.5;
+    padding: 5px;
+ }
+ h3, h4{font-size:1.8em;}
+ 
+/*div{
+	border:1px solid #000;	
+}*/
+
+#wrapper{
+	width:950px;
+	margin:0 auto;
+	/*border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background-color:#ffffff;*/
+	background-color: rgba(255,255,255,0.8);
+}
+header{
+	height:175px;
+	background-image: url(images/ht-bag.jpg);
+	background-repeat:no-repeat;
+}
+
+#section1{
+	height:275px;
+	/*border-bottom:1px solid #ccc;*/
+	position:relative;
+}
+.fadein img{
+	
+	width:690px;
+	height:275px;
+	float:left;
+	position:absolute;
+	left:0;
+	top:0;
+}
+#mission{
+	
+	width:220px;
+	margin-left:20px;
+	float:right;
+	
+}
+#section2{
+	clear:both;
+}
+.textColumn{
+	width:290px;
+	float:left;
+	/*height:200px;*/
+	margin:0 5px;
+	padding:5px;
+}
+#section3{
+	clear:both;
+	height:93px;
+	border-top:1px solid #ccc;
+}
+.picColumn{
+	width:220px;
+	float:left;
+	/*height:100px;*/
+	margin:0 7px;
+	color:#FFF;
+	
+}
+footer{
+	height:330px;
+	clear:both;
+	background-image: url(images/rainbow-bg.jpg);
+    background-repeat: repeat-x;
+	border-top:5px solid #c6d2f2;
+}
+
+#mission a:link, #mission a:visited, .textColumn a:link, .textColumn p a:visited{
+	font-weight:bold;
+	text-decoration:none;
+}
+/*home page content*/
+audio{width:200px;}
+.mam{padding-top: 45px;}
+#tinacopy{padding-top:30px;}
+#dangcopy{padding-top:140px;}
+#mamcopy{padding-top:5px;}
+.tinaimg{padding-top:5px;}
+
+/*footer content*/
+/*p.icon{
+    display:inline;
+}*/
+#plogo{padding-top:25px;
+float:right;
+padding-right:5px;}
+
+.copy2013{color:#FFF;
+float:left;
+padding-top:20px;
+border-top: 3px solid #c6d2f2;
+width:950px;
+font-size:0.9em;
+font-weight:bold;}
+
+.picColumn a:link, nav a:visited{
+	text-decoration: none;
+}
+.picColumn a:link, .more a:visited{
+	color:#fff;
+}
+.picColumn a:hover{
+	color:#c6d2f2;
+}
+/*nav stuff here*/
+nav{
+    background-color: #396485;
+    border-top: 5px solid #c6d2f2;
+    border-bottom: 5px solid #c6d2f2;
+    padding: 20px 20px;
+}
+nav ul li{
+    display: inline;
+    padding: 10px 0px;
+   font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+nav a:link, nav a:visited{
+    padding:10px 30px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+nav a:hover{
+    color: #c6d2f2;
+    text-decoration: underline;
+}
+nav a:active{
+    color: #FF0000;
+}
+article{
+    width: 650px;
+    padding: 10px;
+    padding-right:20px;
+	margin: 5px 10px;
+    float: left;
+    
+}
+/*about page content here*/
+
+iframe{
+    border: 5px solid #06F;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.mike12{
+    float: left;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 15px;
+	width:300px;
+    
+ }
+figcaption{margin-bottom:1.3em;
+	margin-left:1em;
+	font-size:1.5em;
+	}
+	
+/*activism page content*/
+figcaption a:link, nav a:visited{
+	text-decoration: none;
+}
+section a:link, nav a:visited{
+	text-decoration: none;
+}
+/*main page content survivor links*/
+.textColumn a:link, nav a:visited{
+	text-decoration: none;
+}
+/*get involved page content*/
+.mike13{
+    float: left;
+    margin-left: 0px;
+    padding-left: 10px;
+    padding-right: 15px;
+    
+ }
+ figcaption.kid2{padding-top:40px;}
+ figcaption.kid234{padding-top:20px;}
+ figcaption.kid256{padding-top:35px;}
+ #h{padding-top:180px;}
+ #h2{padding-top:20px;}
+ /*donate page content here*/
+ /*#donate12{padding-bottom:3px;}*/
+ 
